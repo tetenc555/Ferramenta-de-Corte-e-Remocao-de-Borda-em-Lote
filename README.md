@@ -7,7 +7,8 @@ Obrigada Cauã Moreno e Miguel Dias pela ajuda no cálculo de fórmulas e lógic
 ## Como usar
 1. Clone o repositório
 2. Instale a biblioteca Pillow caso ainda não a tenha
-3. Execute o arquivo main com as propriedades preferidas!
+3. Crie uma pasta com o lote de fotos a processar, no mesmo caminho que o script
+4. Execute o arquivo main com as propriedades preferidas!
 
 Vale ressaltar que: 
 - No caso de processamento de foto única, basta colocar apenas uma foto no diretório inicial
