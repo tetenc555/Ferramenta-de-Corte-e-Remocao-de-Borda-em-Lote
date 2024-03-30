@@ -1,5 +1,5 @@
-from corte_lote import maincorte
-from bdremove import mainbdremove
+from src.corte_lote import maincorte
+from src.bdremove import mainbdremove
 
 ##dirinicial=str(input("Digite o nome da pasta em que as fotos estão localizadas: ")) ##nao utilizado pois sera usada a pasta padrão input
 porcentagem = int(input("Digite a porcentagem de borda que deseja remover: "))
