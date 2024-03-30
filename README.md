@@ -1,6 +1,6 @@
 # Ferramenta de Corte e Remoção de Borda em lote
 
-Escrito em Python pra processamento facilitado e rápido! Testado num enviroment Conda com Python 3.11.5
+Escrito em Python pra processamento facilitado e rápido! Testado num enviroment Conda com Python 3.11.5, usando VS Code em uma máquina rodando macOS Sonoma 14.3.1 
 
 Obrigada Cauã Moreno e Miguel Dias pela ajuda no cálculo de fórmulas e lógica geral!
 
