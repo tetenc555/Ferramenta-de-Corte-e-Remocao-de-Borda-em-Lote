@@ -35,9 +35,10 @@ def cortar_imagem(imagem, largura, altura):
     return imagens_cortadas
 
 
-def maincorte (largura_resolucao, altura_resolucao):
+def maincorte (largura_resolucao, altura_resolucao,dir):
     #Diretório contendo as imagens com bordas removidas
-    diretorio = 'outputBD/'  
+    #Definido por parametro para que seja possivel rodar o programa sem a remoção de bordas
+    diretorio = f'{dir}/' 
 
     #Lista todos os arquivos de imagem no diretório
     arquivos_imagens = [f for f in os.listdir(diretorio) if f.endswith(('.jpg', '.png', '.jpeg', '.JPG', '.PNG', '.JPEG'))]
